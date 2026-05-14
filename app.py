@@ -163,13 +163,17 @@ for i, p in enumerate(filtered):
             st.caption(p["specialty"])
             st.markdown(f"💰 **עמלת מוכר:** {p['seller_fees']}  |  🛒 **עמלת קונה:** {p['buyer_fees']}")
 
-            # ── Traffic pills ──
-            if monthly != "—" or g_rank != "—":
-                traf_parts = []
-                if monthly != "—":
-                    traf_parts.append(f"🌐 {monthly}/חודש")
-                if g_rank != "—":
-                    traf_parts.append(f"🏆 דירוג #{g_rank}")
+            # ── Traffic — live data first, fall back to static estimate ──
+            live_visits = monthly if monthly != "—" else None
+            est_visits  = p.get("monthly_visits_est")
+            traf_parts  = []
+            if live_visits:
+                traf_parts.append(f"🌐 {live_visits}/חודש")
+            elif est_visits:
+                traf_parts.append(f"🌐 ~{est_visits}/חודש")
+            if g_rank != "—":
+                traf_parts.append(f"🏆 #{g_rank}")
+            if traf_parts:
                 st.info("  |  ".join(traf_parts))
 
             # ── Note ──
