@@ -30,18 +30,36 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
 }
 
-# ── Search queries — EN + FR + DE + NL ────────────────────────────────────────
+# ── Search queries — 20+ across 7 languages & angles ─────────────────────────
 SEARCH_QUERIES = [
-    # English
-    "curated online auction platform jewelry collectibles art site:com OR site:net",
-    "online auction house similar catawiki jewelry antiques",
-    "expert curated auction site fine jewelry art collectibles sell",
+    # English — auction angles
+    "curated online auction platform jewelry collectibles art",
+    "online auction house similar catawiki sell jewelry antiques",
+    "expert verified auction site fine jewelry art collectibles",
+    "sell estate jewelry online auction platform commission",
+    "peer to peer jewelry auction platform curated lots",
+    "luxury consignment auction jewelry watches art online",
+    "antique jewelry marketplace auction online sell",
+    "inherited jewelry sell online auction expert appraisal",
+    "online auction platform collectibles jewelry europe",
+    "fine art jewelry auction house online international bidding",
     # French
     "vente aux enchères en ligne bijoux antiquités expert commissaire",
+    "plateforme enchères bijoux expertisés vendre en ligne",
     # German
     "online auktionshaus schmuck antiquitäten experten kuratiert",
+    "schmuck versteigern online plattform experten geprüft",
+    # Italian
+    "aste online gioielli antiquariato esperti vendere",
+    # Spanish
+    "subasta joyas online plataforma expertos vender",
+    "venta joyas antiguas subasta online comisión",
     # Dutch / Belgian
-    "online veilinghuis sieraden kunst antiek Europa",
+    "online veilinghuis sieraden kunst antiek Europa gecertificeerd",
+    # Swedish / Nordic
+    "online auktion smycken antikviteter sälj europa",
+    # Polish
+    "aukcja internetowa biżuteria antyki eksperci sprzedaj",
 ]
 
 # ── Scoring signals ────────────────────────────────────────────────────────────
