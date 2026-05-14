@@ -1,6 +1,6 @@
 """
 Static database of jewelry/auction platforms with known metadata.
-Traffic data is fetched live from SimilarWeb public pages.
+monthly_visits_est: approximate monthly visits (publicly known data, updated 2024-2025)
 """
 
 PLATFORMS = [
@@ -17,6 +17,7 @@ PLATFORMS = [
         "languages": ["אנגלית", "עברית", "הולנדית", "צרפתית", "+20"],
         "notes": "נקודת ייחוס – האתר שממנו מתחיל החיפוש",
         "color": "#FF6B35",
+        "monthly_visits_est": "25M",
     },
     {
         "name": "eBay",
@@ -31,6 +32,7 @@ PLATFORMS = [
         "languages": ["אנגלית", "+20"],
         "notes": "הכי גדול בעולם, תחרות גבוהה, חשיפה עצומה",
         "color": "#E53238",
+        "monthly_visits_est": "600M",
     },
     {
         "name": "Etsy",
@@ -45,6 +47,7 @@ PLATFORMS = [
         "languages": ["אנגלית", "+10"],
         "notes": "אידיאלי לתכשיטים אומנותיים, קהל מאוד ממוקד",
         "color": "#F56400",
+        "monthly_visits_est": "400M",
     },
     {
         "name": "1stDibs",
@@ -59,6 +62,7 @@ PLATFORMS = [
         "languages": ["אנגלית"],
         "notes": "פלטפורמת יוקרה מובילה, דורשת אישור מוכר",
         "color": "#1a1a1a",
+        "monthly_visits_est": "7M",
     },
     {
         "name": "Invaluable",
@@ -73,6 +77,7 @@ PLATFORMS = [
         "languages": ["אנגלית"],
         "notes": "מאגד מאות בתי מכירות, חשיפה גבוהה",
         "color": "#8B1A1A",
+        "monthly_visits_est": "3M",
     },
     {
         "name": "LiveAuctioneers",
@@ -87,6 +92,7 @@ PLATFORMS = [
         "languages": ["אנגלית"],
         "notes": "מכרזים חיים בזמן אמת, מאוד פופולרי בארה\"ב",
         "color": "#2E4057",
+        "monthly_visits_est": "4M",
     },
     {
         "name": "The RealReal",
@@ -101,6 +107,7 @@ PLATFORMS = [
         "languages": ["אנגלית"],
         "notes": "אימות מקצועי, ממוקד בלוקסורי מאוחד",
         "color": "#4A2040",
+        "monthly_visits_est": "10M",
     },
     {
         "name": "Vestiaire Collective",
@@ -115,6 +122,7 @@ PLATFORMS = [
         "languages": ["צרפתית", "אנגלית", "+10"],
         "notes": "חזק באירופה, אימות על פריטי יוקרה",
         "color": "#006241",
+        "monthly_visits_est": "15M",
     },
     {
         "name": "Ruby Lane",
@@ -129,6 +137,7 @@ PLATFORMS = [
         "languages": ["אנגלית"],
         "notes": "מומחה בתכשיטים אנטיקים, קהל נישה מאוד ממוקד",
         "color": "#8B0000",
+        "monthly_visits_est": "1M",
     },
     {
         "name": "Worthy",
@@ -143,6 +152,7 @@ PLATFORMS = [
         "languages": ["אנגלית"],
         "notes": "מתמחה אך ורק בתכשיטים יקרי ערך, שמאות חינם",
         "color": "#D4AF37",
+        "monthly_visits_est": "500K",
     },
     {
         "name": "Bonhams",
@@ -157,6 +167,7 @@ PLATFORMS = [
         "languages": ["אנגלית"],
         "notes": "בית מכירות יוקרתי מוכר עם נוכחות עולמית",
         "color": "#2C3E50",
+        "monthly_visits_est": "1.5M",
     },
     {
         "name": "Everything But The House",
@@ -165,12 +176,13 @@ PLATFORMS = [
         "category": "מכרזים",
         "specialty": "מכרזים לפריטי בית, תכשיטים, אמנות",
         "jewelry_focus": 3,
-        "seller_fees": "ללא (EBTH לוקח הכל, מחלקים)",
+        "seller_fees": "ללא (EBTH מנהל הכל)",
         "buyer_fees": "15% פרמיה",
         "regions": ["ארה\"ב"],
         "languages": ["אנגלית"],
         "notes": "מודל ייחודי – הם מצלמים ומנהלים, מתאים לאוספים",
         "color": "#27AE60",
+        "monthly_visits_est": "600K",
     },
     {
         "name": "Poshmark",
@@ -185,6 +197,7 @@ PLATFORMS = [
         "languages": ["אנגלית"],
         "notes": "פופולרי בארה\"ב, קהל צעיר, מהיר ופשוט",
         "color": "#FF2D55",
+        "monthly_visits_est": "50M",
     },
     {
         "name": "Barnebys",
@@ -199,6 +212,7 @@ PLATFORMS = [
         "languages": ["אנגלית", "שוודית", "גרמנית", "+5"],
         "notes": "מנוע חיפוש למכרזים, לא מוכרים ישירות אבל חשיפה טובה",
         "color": "#3498DB",
+        "monthly_visits_est": "2M",
     },
     {
         "name": "Chrono24",
@@ -213,5 +227,6 @@ PLATFORMS = [
         "languages": ["אנגלית", "גרמנית", "+10"],
         "notes": "המוביל בשעונים, פחות רלוונטי לתכשיטים בלבד",
         "color": "#1ABC9C",
+        "monthly_visits_est": "15M",
     },
 ]
